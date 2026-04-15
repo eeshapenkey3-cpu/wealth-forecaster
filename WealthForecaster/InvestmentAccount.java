@@ -26,4 +26,18 @@ public class InvestmentAccount{
         }
     }
 
+    //gte methods - one for each output
+
+    public double getCurrentBalance(){
+        return currentBalance;
+    }
+
+    public double getAnnualContribution(){
+        return annualContribution;
+    }
+
+    public double getExpectedReturnRate(){
+        return expectedReturnRate;
+    }
+
 }
